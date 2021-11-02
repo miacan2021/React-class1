@@ -1,7 +1,7 @@
 
 let Categories = data.map((result, index) => {
     return (
-        <ul class="cat-nav center-align">
+        <ul className="cat-nav center-align">
         <Category key={index} data={result} />
         </ul>
     )
