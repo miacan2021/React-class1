@@ -1,16 +1,16 @@
 
 let Categories = data.map((result, index) => {
     return (
-        <ul className="cat-nav center-align">
         <Category key={index} data={result} />
-        </ul>
     )
 })
 
 
 ReactDOM.render(
     <div className="row">
+      <ul className="cat-nav center-align">
         {Categories}
+      </ul>
     </div>, 
     document.getElementById('root')
 )
